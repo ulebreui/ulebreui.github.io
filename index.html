@@ -1,30 +1,124 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
+	<head>
+		<title>Ugo Lebreuilly's website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-    <head>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css" />
-        <title>Dr. Ugo Lebreuilly's web page</title>
-    </head>
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Introducing myself</a></li>
+     						<li><a href="#two">Contact infomation</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
 
-    <body> 
-    <a11>
-    	<p> <img src="pictures/Logo.png" width="50%",height="50%"/> </p>
-        <p><button  class="button button2" onclick="document.location='cv.html'" >Curiculum Vitae</button> <button class="button button2" onclick="document.location='publi.html'">Publication list</button> <button class="button button2"  onclick="document.location='contact.html'">Contact</button> </p>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-    	<p><H>Welcome to my web-site !</H></p>
-    	<p> My name is Ugo Lebreuilly and I am a post-doctoral researcher currently working at IRFU/DAP at CEA in Saclay.</p>
-    	<p> I am currently working as a post-doctoral staff of the <a href="http://ecogal.extra.cea.fr/indexhtml.php">ECOGAL project</a> (founded by an ERC synergy).</p>
-    	<p> My main current research topics are star/disk and planet formation and the overall dynamics of gas and dust in the interstellar medium. Before that, I did my Ph.D at the Centre de Recherche Astrophysique de Lyon on the ENS Lyon site under the direction of Benoît Commerçon. My thesis manuscript is available <a href="http://www.theses.fr/2020LYSEN045">online</a>.  </p>
-    	<p> Current highlight - Simulation of disk formation in a massive protostellar clump :  </p>
-    	    	<p> <img src="pictures/group_column_density.png" width="50%",height="50%"/> </p>
-    	<p> Caption : Column density plot (edge-one) centered around a sink and at three different scales.  </p>
-    	    	<p> <img src="pictures/coldens.gif" width="20%",height="20%"/> </p>
-    	<p> Caption : A journey through the different scales (more disks to come)  </p>
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<span class="image fit"><img src="images/logo.png" alt="" /></span>
+    						<p> Welcome to my web-site ! My name is Ugo Lebreuilly and I am a post-doctoral researcher currently working at AIM/DAp at the CEA of Saclay.  I am currently working as a post-doctoral staff of the <a href="http://ecogal.extra.cea.fr/indexhtml.php">ECOGAL project</a> (founded by an ERC synergy).  Before that, I did my Ph.D at the Centre de Recherche Astrophysique de Lyon on the ENS Lyon site under the direction of Benoît Commerçon. My thesis manuscript is available <a href="http://www.theses.fr/2020LYSEN045">online</a>.</p>
+    						<p> My main current research topics are star/disk and planet formation and the overall dynamics and evolution of the gas and dust from the diffuse interstellar medium to the protoplanetary disks. </p>
 
-         
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Learn more about me</a></li>
+							</ul>
+						</div>
+					</section>
 
-    </body>
-    </a11>
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="images/eso1105a.jpg" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Curiculum Vitae</h2>
+									<ul class="actions">
+										<li><a href="cv.html" class="button">Learn more about my CV</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/rt_density-1540_z.png" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>List of publications</h2>
+									<p> This is the full list of my peer-reviewed publications. </p>
+									<ul class="actions">
+										<li><a href="publications.html" class="button">Learn more about my works</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>SHARK</h2>
+									<p> SHARK is a code I designed to study the evolution of dust grains during the protostellar collapses. It solves the 1D gas and multiple dust species hydrodynamical equation either in cartesian coordinates or in spherical geometry and takes into the coagulation and fragmentation of dust grains by solving the Smoluchowski equations. It allows computes, on-the-fly, the ionisation state of the cloud.  </p>
+									<p> SHARK is a public code, so feel free to clone the repository and modify it at will. It is intended for a community use, so if you want to be a contributor of the code feel free to contact me !</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button">Go get SHARK!</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+				<!-- Three -->
+					<section id="two" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Contact infomation/h2>
+							<p>Here are my contact informations. You can contact at my email address me after replacing the [dot] by . and [at] by @.</p>
+							<div class="split style1">
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>Email</h3>
+											<a href="#">ugo[dot]lebreuilly[at]cea[dot]fr</a>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
 
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Ugo Lebreuilly's web-page. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
